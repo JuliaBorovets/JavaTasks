@@ -1,6 +1,7 @@
 package ua.project.homeworks.homework2.game;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Model {
     public int a = 0;
@@ -49,6 +50,7 @@ public class Model {
 
         return -1;
     }
+
 
     public ArrayList<Integer> getPreviousNumbers() {
         return previousNumbers;
