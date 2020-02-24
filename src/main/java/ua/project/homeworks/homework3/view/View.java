@@ -2,19 +2,18 @@ package ua.project.homeworks.homework3.view;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
+import java.util.Locale;
 
 import static ua.project.homeworks.homework3.view.TextConstant.INPUT_STRING_DATA;
 import static ua.project.homeworks.homework3.view.TextConstant.WRONG_INPUT_DATA;
 
 public class View {
+
     // Resource Bundle Installation's
     static String MESSAGES_BUNDLE_NAME = "messages";
-    public static final ResourceBundle bundle = ResourceBundle.getBundle(
-            MESSAGES_BUNDLE_NAME,
+    public static final ResourceBundle bundle = ResourceBundle.getBundle(MESSAGES_BUNDLE_NAME,
             new Locale("ua", "UA"));  // Ukrainian
     //new Locale("en"));        // English
-
-    //Utilities methods
 
     public void printMessage(String message) {
         System.out.println(message);
